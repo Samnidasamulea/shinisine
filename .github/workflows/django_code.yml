@@ -25,7 +25,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-#        chmod +x run_test.sh
         ./run_tests.sh
 
     # Runs a single command using the runners shell
