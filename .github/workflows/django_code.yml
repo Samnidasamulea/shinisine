@@ -25,8 +25,8 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        chmod +x run_tests.sh
-        ./run_tests.sh
+        chmod +x install.sh
+        ./install.sh
 
     # Runs a single command using the runners shell
     - name: Cirque Presubmit
